@@ -57,4 +57,4 @@ class DiffieHellmanParticipant:
         self.mediator.send(self.name, other_participant, {
             "type": "public_key",
             "public_key": self.public_key
-        })
+        }
