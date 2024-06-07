@@ -31,7 +31,7 @@ class DiffieHellmanParticipant:
                 "type": "public_key",
                 "public_key": self.public_key
             })
-        elif message ["type"] == "public_key": self.calculate_shared_key (message["public_key"])
+        elif message ["type"] == "public_key": self.calculate_shared_key (message ["public_key"])
 
     def start_communication (self, p, g, other_participant):
         self.p = p
