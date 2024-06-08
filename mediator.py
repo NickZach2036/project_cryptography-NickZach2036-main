@@ -11,4 +11,4 @@ class Mediator:
     def check_standard (self, participant, standard):
         if standard not in participant.supported_standards: return False
         
-        return True
+        return Tru
