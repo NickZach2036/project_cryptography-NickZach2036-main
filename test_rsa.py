@@ -23,4 +23,4 @@ class TestRSA (unittest.TestCase):
         print ("Bob's shared message (RSA):", bob.shared_message)
 
 if __name__ == "__main__":
-    unittest.main(
+    unittest.main()

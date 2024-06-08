@@ -61,4 +61,4 @@ class RSAParticipant:
             "type": "public_key",
             "public_key": self.public_key,
             "message": message
-        }
+        })

@@ -20,4 +20,4 @@ class TestDiffieHellman (unittest.TestCase):
         print ("Bob's shared key:", bob.shared_key)
 
 if __name__ == "__main__":
-    unittest.main(
+    unittest.main()
